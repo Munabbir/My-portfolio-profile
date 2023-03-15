@@ -10,6 +10,11 @@ var typed = new Typed(".typing-2",{
     typeSpeed: 100,
     backSpeed: 60,
 });
+var typed = new Typed(".My-about-text",{
+    strings: ["I am Munabbir Shakib work from Bangladesh. I will work as a front end developer with more than 3 years of experience in Web Technology. I am proficient in JavaScript frameworks like React and Next as well as backend frameworks like Node."],
+    typeSpeed: 20,
+    backSpeed: 60,
+});
 
 // Show/Hide FAQs answer
 const faqs = document.querySelectorAll('.faq');
